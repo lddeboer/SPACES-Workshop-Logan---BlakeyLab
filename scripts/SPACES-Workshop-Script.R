@@ -9,6 +9,7 @@ ggplot(complete_old, aes(
 myplot <- ggplot(complete_old, aes(
   x = hindfoot_length,
   y = weight))+
-  geom_point(aes(color = species))
+  geom_point(aes(color = "red"))
 
-myplot
+#color = red awesome 
+  myplot
